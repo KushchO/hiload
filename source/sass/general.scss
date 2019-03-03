@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: $dark-gray;
+}
+
+.container {
+  max-width: 1500px;
+  min-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 1000px;
+  //background-image: url("../img/bg.png");
+  background-color: #e9eae2;
+
+}
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media (min-width: 765px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

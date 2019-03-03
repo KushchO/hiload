@@ -1,0 +1,35 @@
+.social__list {
+  @include resetList;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75px;
+}
+
+.social__item {
+  margin-right: 15px;
+}
+
+@media (min-width: 320px) {
+  .social__list {
+    width: 30px;
+    margin: 0 auto;
+  }
+
+  .social__item {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 765px) {
+  .social__list {
+    padding-left: 20px;
+    flex-wrap: nowrap;
+    width: 150px;
+    margin: 0;
+  }
+
+  .social__item {
+    margin-right: 15px;
+  }
+}

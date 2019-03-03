@@ -1,0 +1,20 @@
+@mixin resetMarginPadding {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin resetList {
+  @include resetMarginPadding;
+  list-style: none;
+}
+
+@mixin UpperMenuText {
+  font-size: 13px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+@mixin centeredBackground {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
