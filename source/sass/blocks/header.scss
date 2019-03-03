@@ -68,21 +68,17 @@
   .header__logo {
     z-index: 0;
   }
-
 }
-
 
 @media(min-width: 1024px) {
 
   .header__logo-block {
-
     background-position: 85% 50%;
   }
 
   .header__logo-block {
     padding-left: 6%;
   }
-
 }
 
 @media(min-width: 1200px) {
